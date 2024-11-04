@@ -2,6 +2,8 @@ import requests
 
 
 class ApiClient:
+    """A client for interacting with an API, providing methods to send HTTP requests
+    (GET, POST, DELETE, PUT) and manage session data."""
 
     def __init__(self):
         self.session = requests.session()

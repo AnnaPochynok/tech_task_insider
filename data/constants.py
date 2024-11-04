@@ -2,6 +2,7 @@ class TestConstants:
     DEPARTMENT_FOR_TEST = 'Quality Assurance'
     LOCATION_FOR_TEST = 'Istanbul, Turkey'
 
+
 class ApiConstants:
     PET_ID = 123
     PET_NAME = 'Chuck'
